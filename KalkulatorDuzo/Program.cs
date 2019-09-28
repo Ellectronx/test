@@ -10,7 +10,19 @@ namespace KalkulatorDuzo
     {
         static void Main(string[] args)
         {
-            // comment
+            while(true)
+            {
+
+                Console.WriteLine("0. Exit");
+                Console.WriteLine("1. ADD");
+                Console.WriteLine("2. DIFF");
+
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+                if( menuOption == 0 )
+                {
+                    break;
+                }
+            }
         }
     }
 }
