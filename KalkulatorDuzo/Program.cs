@@ -17,7 +17,7 @@ namespace KalkulatorDuzo
                 Console.WriteLine("1. ADD");
                 Console.WriteLine("2. DIFF");
                 Console.WriteLine("3. MUL");
-
+                Console.WriteLine("4. MDIV");
 
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 0)
