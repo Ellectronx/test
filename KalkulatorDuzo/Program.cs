@@ -10,6 +10,7 @@ namespace KalkulatorDuzo
     {
         static void Main(string[] args)
         {
+            // comment
         }
     }
 }
